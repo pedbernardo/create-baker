@@ -19,7 +19,7 @@ yarn create baker
 
 ## Scaffold
 
-After follow the prompts, will be generated a minimal project structure with a few sample files that demonstrates the usage of Camunda Baker CLI. If you want more information about setup and the CLI resources just go to [Camunda Baker](https://github.com/pedbernardo/cam-baker).
+After follow the prompts will be generated a minimal project structure, with a few sample files that demonstrates the usage of Camunda Baker CLI. If you want more information about setup and the CLI resources just go to [Camunda Baker](https://github.com/pedbernardo/cam-baker).
 
 <br>
 
