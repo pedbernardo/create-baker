@@ -21,8 +21,6 @@ async function createProject (config) {
   config.fullPath = join(process.cwd(), !config.cwd ? config.packageName : '')
   config.templateDir = resolve(fileURLToPath(import.meta.url), '../..', 'src/template')
 
-  console.log(config.templateDir)
-
   try {
     config.version = await getLatestPackageVersion('cam-baker')
   } catch (err) {
