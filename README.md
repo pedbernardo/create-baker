@@ -17,8 +17,6 @@ npm create baker@latest
 yarn create baker
 ```
 
-<br>
-
 ## Scaffold
 
 After follow the prompts will be generated a minimal project structure with a few sample files that demonstrates the usage of Camunda Baker CLI, but if you want more information about setup and the CLI resources just go to [Camunda Baker](https://github.com/pedbernardo/cam-baker).
