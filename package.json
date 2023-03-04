@@ -1,6 +1,6 @@
 {
   "name": "create-baker",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Camunda Baker project scaffold generator",
   "bin": {
     "create-baker": "bin/index.mjs",
@@ -9,7 +9,11 @@
   "main": "src/index.js",
   "scripts": {
     "prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --fix",
+    "test:cli": "node bin/index.mjs"
+  },
+  "lint-staged": {
+    "*.mjs": "npm run lint"
   },
   "repository": {
     "type": "git",
