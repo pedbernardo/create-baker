@@ -1,0 +1,48 @@
+{
+  "name": "create-baker",
+  "version": "1.0.0",
+  "description": "Camunda Baker project scaffold generator",
+  "bin": {
+    "create-baker": "bin/index.mjs",
+    "cba": "bin/index.mjs"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedbernardo/create-baker.git"
+  },
+  "keywords": [
+    "camunda",
+    "cam-baker",
+    "baker",
+    "starter",
+    "boilerplate",
+    "scaffold"
+  ],
+  "author": "Pedro Bernardo <pedrovbernardo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedbernardo/create-baker/issues"
+  },
+  "homepage": "https://github.com/pedbernardo/create-baker#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "eslint": "8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-n": "15.0.0",
+    "eslint-plugin-promise": "6.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^3.3.0",
+    "prompts": "^2.4.2"
+  }
+}
