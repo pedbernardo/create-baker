@@ -1,6 +1,6 @@
 {
   "name": "create-baker",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Camunda Baker project scaffold generator",
   "bin": {
     "create-baker": "bin/index.mjs",
