@@ -48,5 +48,8 @@
     "colors": "^1.4.0",
     "node-fetch": "^3.3.0",
     "prompts": "^2.4.2"
+  },
+  "engines": {
+    "node": ">= 16"
   }
 }
