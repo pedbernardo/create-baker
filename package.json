@@ -9,11 +9,11 @@
   "main": "src/index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint . --fix",
+    "lint": "eslint . --ext .js,.cjs,.mjs --fix --ignore-path .gitignore",
     "test:cli": "node bin/index.mjs"
   },
   "lint-staged": {
-    "*.mjs": "npm run lint"
+    "*.{js,mjs,cjs}": "eslint"
   },
   "repository": {
     "type": "git",
